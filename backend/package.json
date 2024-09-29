@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "concurrently \"tsx src/main.ts\" \"./pocketbase serve\"",
     "dev": "tsx src/main.ts",
     "build": "tsc",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "@types/express": "^4.17.21",
+    "concurrently": "^9.0.1",
     "express": "^4.19.0"
   }
 }
