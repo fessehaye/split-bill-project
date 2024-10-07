@@ -4,12 +4,17 @@ IcePanel engineering interview task boilerplate
 
 ## How to set up the project:
 
+![image info](./login.png)
+
+
 1. Install backend dependencies `pnpm install`
 2. Start both Pocketbase and the express backend with `pnpm start`
 3. Go to `http://127.0.0.1:8090/_/` and create an admin account and login
 4. In a seperate terminal run `pnpm run seed` to seed our database with data to use
 5. The seed document should provide you a email/password you can use.
 6. In a seperate terminal run `pnpm start` on the `frontend/` folder
+
+![image info](./admin.png)
 
 
 ## AI Usage:
@@ -26,6 +31,8 @@ I only used ChatGPT for debugging and asking framework specific knowledge. Since
 Total: 18+hrs
 
 * All of the time usage went towards learning vue/express/pocketbase/pinia since it was my first time combining the tools together.
+
+![image info](./dashboard.png)
 
 
 ## What I did not have time to build:
