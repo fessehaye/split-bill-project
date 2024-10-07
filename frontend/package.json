@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "mande": "^2.0.9",
     "pinia": "^2.1.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
@@ -34,6 +35,7 @@
     "@vue/tsconfig": "^0.5.1",
     "autoprefixer": "^10.4.18",
     "cypress": "^13.7.0",
+    "daisyui": "^4.12.11",
     "eslint": "^8.49.0",
     "eslint-plugin-cypress": "^2.15.1",
     "eslint-plugin-vue": "^9.17.0",

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from '../components/HelloWorld.vue'
+import LoginForm from '../components/LoginForm.vue'
 </script>
 
 <template>
   <main class="h-screen flex items-center justify-center">
-    <HelloWorld />
+    <LoginForm />
   </main>
 </template>
